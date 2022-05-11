@@ -18,8 +18,8 @@ export default function JapanesePokemon(){
       }
       else{
           let filteredArray = JapanesePokemonNames.filter(pokemon => 
-              pokemon.includes(filter) || GetPokemonNumber(JapanesePokemonNames.indexOf(pokemon)).includes(filter) ||
-              EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)].includes(filter)
+              pokemon.includes(filter.toLowerCase()) || GetPokemonNumber(JapanesePokemonNames.indexOf(pokemon)).includes(filter) ||
+              EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)].includes(filter.toLowerCase())
           )
           return filteredArray
       }

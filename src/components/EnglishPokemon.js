@@ -19,7 +19,7 @@ export default function EnglishPokemon(){
         }
         else{
             let filteredArray = EnglishPokemonNames.filter(pokemon => 
-                pokemon.includes(filter) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter)
+                pokemon.includes(filter.toLowerCase()) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter)
             )
             return filteredArray
         }
