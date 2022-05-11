@@ -111,22 +111,22 @@ a, a:visited, a:hover, a:active {
 .pokemonName{
     width: 250px;
 }
-.ensLink, .osLink{
+.ensLink, .osLink, .lrLink{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80px;
     color: black;
 }
-#tableENS:hover, #tableOS:hover{
+#tableENS:hover, #tableOS:hover, #tableLR:hover{
     color: black;
 }
 
-.ensLink:hover, .osLink:hover{
+.ensLink:hover, .osLink:hover, .lrLink:hover{
     color: red;
 }
 
-.osAnchor, .ensAnchor{
+.osAnchor, .ensAnchor, .lrAnchor{
     display: flex;
     justify-content: center;
     align-items: center;
