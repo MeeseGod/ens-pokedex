@@ -9,7 +9,7 @@ export default function JapanesePokemon(){
   const [filter, setFilter] = useState("")
 
   function handleChange(filter){
-      setFilter(filter);
+      setFilter(filter.toLowerCase());
   }
 
   function returnFilteredArray(){
@@ -18,8 +18,8 @@ export default function JapanesePokemon(){
       }
       else{
           let filteredArray = JapanesePokemonNames.filter(pokemon => 
-              pokemon.includes(filter.toLowerCase()) || GetPokemonNumber(JapanesePokemonNames.indexOf(pokemon)).includes(filter) ||
-              EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)].includes(filter.toLowerCase())
+              pokemon.includes(filter) || GetPokemonNumber(JapanesePokemonNames.indexOf(pokemon)).includes(filter) ||
+              EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)].includes(filter)
           )
           return filteredArray
       }
