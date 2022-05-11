@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./components/Home"
+import EnglishPokemon from "./components/EnglishPokemon"
+import JapanesePokemon from "./components/JapanesePokemon"
 
-function App() {
+
+export default function App(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" exact element={<Home/>} />
+          <Route path="/japanese" exact element={<JapanesePokemon/>} />
+          <Route path="/english" exact element={<EnglishPokemon/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
-
-export default App;
