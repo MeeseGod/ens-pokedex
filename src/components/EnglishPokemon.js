@@ -60,7 +60,7 @@ export default function EnglishPokemon(){
                     </th>
                     <th className="lrLink">
                         <a href={`https://looksrare.org/collections/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} className="lrAnchor">
-                        <img src="i.ibb.co/bRTX26b/looksrare.png" className="osImage" alt="Looks Rare's Logo"></img>
+                        <img src="https://i.ibb.co/bRTX26b/looksrare.png" className="osImage" alt="Looks Rare's Logo"></img>
                         LR
                         </a>
                     </th>
