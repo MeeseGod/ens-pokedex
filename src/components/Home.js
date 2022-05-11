@@ -23,19 +23,19 @@ export default function Home(){
             <img src="https://i.imgur.com/PRdeMis.gif" alt="A rotating gif of pokemon trainers" className="trainerGif"/>
         </div>
         <div className="homeLinks">
-            <a href="https://discord.gg/nfWYw9mctW" className="homeLink">
+            <a href="https://discord.gg/nfWYw9mctW" target="_blank" className="homeLink">
                 <img src="https://cdn.logojoy.com/wp-content/uploads/20210422095037/discord-mascot.png" alt="Discord's Logo" className="homeImage"></img>
             </a>
-            <a href="https://www.gem.xyz/collection/ens/?filters={%22custom%22:[%22pokemon%22]}" className="homeLink">
+            <a href="https://www.gem.xyz/collection/ens/?filters={%22custom%22:[%22pokemon%22]}" target="_blank" className="homeLink">
                 <img src="https://www.gem.xyz/gem.png" alt="Gem.xyz's logo" className="homeImage"/>
             </a>
-            <a href="https://dune.com/butterfree/Trainer-Dao" className="homeLink">
+            <a href="https://dune.com/butterfree/Trainer-Dao" target="_blank" className="homeLink">
                 <img src="https://dune.com/assets/glyph-128w.png" alt="Dune's logo" className="homeImage"/>
             </a>
-            <a href="https://www.ens.vision/categories/PKD" className="homeLink">
+            <a href="https://www.ens.vision/categories/PKD" target="_blank" className="homeLink">
                 <img src="https://www.ens.vision/favicon.ico" alt="ENS Vision's logo" className="homeImage"></img>
             </a>
-            <a href="https://twitter.com/trainerdao" className="homeLink">
+            <a href="https://twitter.com/trainerdao" target="_blank" className="homeLink">
                 <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Twitter's Logo" className="homeImage"></img>
             </a>
         </div>

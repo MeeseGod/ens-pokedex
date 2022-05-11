@@ -47,19 +47,19 @@ export default function EnglishPokemon(){
                         {`${pokemon}.eth`}
                     </th>
                     <th className="ensLink">
-                        <a href={`https://app.ens.domains/name/${pokemon}.eth/details`} className="ensAnchor">
+                        <a href={`https://app.ens.domains/name/${pokemon}.eth/details`} target="_blank" className="ensAnchor">
                         <img src="https://www.coinspot.com.au/public/img/coinlg/ethereum%20name%20service.png?v=12" className="osImage" alt="ENS's Logo"></img>
                         ENS
                         </a>
                     </th>
                     <th className="osLink">
-                        <a href={`https://opensea.io/assets/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} className="osAnchor">
+                        <a href={`https://opensea.io/assets/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} target="_blank" className="osAnchor">
                         <img src="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.png" className="osImage" alt="OpenSea's Logo"></img>
                             OS
                         </a>
                     </th>
                     <th className="lrLink">
-                        <a href={`https://looksrare.org/collections/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} className="lrAnchor">
+                        <a href={`https://looksrare.org/collections/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} target="_blank" className="lrAnchor">
                         <img src="https://i.ibb.co/bRTX26b/looksrare.png" className="osImage" alt="Looks Rare's Logo"></img>
                         LR
                         </a>
