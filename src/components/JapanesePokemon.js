@@ -29,7 +29,7 @@ export default function JapanesePokemon(){
         <div className="japaneseDisclaimer">
         <h3>
             Disclaimer: Some Japanese Pokemon contain characters that result in the inability to display and list on OpenSea. 
-            Pokemon with "ー" are affected by this.
+            Pokemon with "ー" or ' are affected by this.
         </h3>
         </div>
         <div className="searchContainer">
