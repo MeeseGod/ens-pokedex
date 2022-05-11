@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ens-pokedex/static/css/main.a939958b.css",
+    "main.js": "/ens-pokedex/static/js/main.338b3267.js",
+    "static/media/pokemon_pixel_font.woff": "/ens-pokedex/static/media/pokemon_pixel_font.62a855fa4fd1811c3373.woff",
+    "index.html": "/ens-pokedex/index.html",
+    "main.a939958b.css.map": "/ens-pokedex/static/css/main.a939958b.css.map",
+    "main.338b3267.js.map": "/ens-pokedex/static/js/main.338b3267.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a939958b.css",
+    "static/js/main.338b3267.js"
+  ]
+}
