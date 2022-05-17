@@ -3,6 +3,7 @@ import EnglishPokemonNames from "./EnglishPokemonNames";
 import Navbar from "./Navbar";
 import GetPokemonNumber from "./GetPokemonNumber"
 import GetOpenseaLink from "./GetOpenseaLink";
+import CatchNameException from "./CatchNameException";
 import "../styles/universalPokedex.css"
 
 export default function EnglishPokemon(){
@@ -44,7 +45,7 @@ export default function EnglishPokemon(){
                         {`#${GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon))}`}
                     </th> 
                     <th className="pokemonName">
-                        {`${pokemon}.eth`}
+                        {`${CatchNameException(pokemon)}.eth`}
                     </th>
                     <th className="ensLink">
                         <a href={`https://app.ens.domains/name/${pokemon}.eth/details`} target="_blank" className="ensAnchor">
