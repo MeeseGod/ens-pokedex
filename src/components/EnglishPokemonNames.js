@@ -667,7 +667,7 @@ const EnglishPokemonNames = [
     "vivillon",
     "litleo",
     "pyroar",
-    "flabebe",
+    "flabébé",
     "floette",
     "florges",
     "skiddo",
