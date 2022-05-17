@@ -83,7 +83,7 @@ a, a:visited, a:hover, a:active {
 .pokeSearch{
     width: 500px;
     margin-bottom: 20px;
-    font-family: pokemonFont;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
 }
 .displayContainer{

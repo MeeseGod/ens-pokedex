@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import JapanesePokemonNames from "./JapanesePokemonNames";
 import EnglishPokemonNames from "./EnglishPokemonNames";
 import Navbar from "./Navbar";
+import CatchNameException from "./CatchNameException";
 import GetPokemonNumber from "./GetPokemonNumber"
 import GetOpenseaLink from "./GetOpenseaLink";
 
@@ -19,7 +20,8 @@ export default function JapanesePokemon(){
       else{
           let filteredArray = JapanesePokemonNames.filter(pokemon => 
               pokemon.includes(filter) || GetPokemonNumber(JapanesePokemonNames.indexOf(pokemon)).includes(filter) ||
-              EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)].includes(filter)
+              EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)].includes(filter) ||
+              CatchNameException(EnglishPokemonNames[JapanesePokemonNames.indexOf(pokemon)]).includes(filter)
           )
           return filteredArray
       }
