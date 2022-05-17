@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import EnglishPokemonNames from "./EnglishPokemonNames";
 import Navbar from "./Navbar";
+import CatchNameException from "./CatchNameException";
 import GetPokemonNumber from "./GetPokemonNumber"
 import GetOpenseaLink from "./GetOpenseaLink";
 import "../styles/universalPokedex.css"
@@ -19,7 +20,7 @@ export default function EnglishPokemon(){
         }
         else{
             let filteredArray = EnglishPokemonNames.filter(pokemon => 
-                pokemon.includes(filter) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter)
+                pokemon.includes(filter) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter) || CatchNameException(pokemon).incudes(filter)
             )
             return filteredArray
         }
