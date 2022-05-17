@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
 body{
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -89,7 +91,7 @@ a, a:visited, a:hover, a:active {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto-fill, 1fr);
     justify-items: center;
-    font-family: displayPokemonFont;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
     margin-bottom: 50px;
 }
