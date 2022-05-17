@@ -20,7 +20,7 @@ export default function EnglishPokemon(){
         }
         else{
             let filteredArray = EnglishPokemonNames.filter(pokemon => 
-                pokemon.includes(filter) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter) || CatchNameException(pokemon).incudes(filter)
+                pokemon.includes(filter) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter) || CatchNameException(pokemon).includes(filter)
             )
             return filteredArray
         }
