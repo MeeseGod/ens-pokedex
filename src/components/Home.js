@@ -17,6 +17,9 @@ export default function Home(){
                 <p>
                     Remember to continue growing the community!
                 </p>
+                <p>
+                    Update (2022-09-09): The new Pokemon from Scarlet and Violet will be added around or after their respective release. Much love.
+                </p>
             </div>
         </div>
         <div className="trainerGifContainer">
