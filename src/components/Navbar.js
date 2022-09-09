@@ -6,4 +6,4 @@ export default function Navbar(){
             <Link to="/english" className="navbarEnglish">English Pokedex</Link>
             <Link to="/japanese" className="navbarJapanese">Japanese Pokedex</Link>
     </div>
-}
+};

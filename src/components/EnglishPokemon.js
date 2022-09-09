@@ -7,24 +7,23 @@ import GetOpenseaLink from "./GetOpenseaLink";
 import "../styles/universalPokedex.css"
 
 export default function EnglishPokemon(){
-
-    const [filter, setFilter] = useState("")
+    const [filter, setFilter] = useState("");
 
     function handleChange(filter){
         setFilter(filter.toLowerCase());
-    }
+    };
 
     function returnFilteredArray(){
         if(filter === ""){
-            return EnglishPokemonNames
+            return EnglishPokemonNames;
         }
         else{
-            let filteredArray = EnglishPokemonNames.filter(pokemon => 
+            const filteredArray = EnglishPokemonNames.filter(pokemon => 
                 pokemon.includes(filter) || GetPokemonNumber(EnglishPokemonNames.indexOf(pokemon)).includes(filter) || CatchNameException(pokemon).includes(filter)
-            )
-            return filteredArray
-        }
-    }
+            );
+            return filteredArray;
+        };
+    };
 
     return <div>
         <Navbar/>
@@ -48,19 +47,19 @@ export default function EnglishPokemon(){
                         {`${pokemon}.eth`}
                     </th>
                     <th className="ensLink">
-                        <a href={`https://app.ens.domains/name/${pokemon}.eth/details`} target="_blank" className="ensAnchor">
+                        <a href={`https://app.ens.domains/name/${pokemon}.eth/details`} target="_blank" rel="noreferrer" className="ensAnchor">
                         <img src="https://www.coinspot.com.au/public/img/coinlg/ethereum%20name%20service.png?v=12" className="osImage" alt="ENS's Logo"></img>
                         ENS
                         </a>
                     </th>
                     <th className="osLink">
-                        <a href={`https://opensea.io/assets/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} target="_blank" className="osAnchor">
+                        <a href={`https://opensea.io/assets/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} target="_blank" rel="noreferrer" className="osAnchor">
                         <img src="https://storage.googleapis.com/opensea-static/Logomark/Logomark-Blue.png" className="osImage" alt="OpenSea's Logo"></img>
                             OS
                         </a>
                     </th>
                     <th className="lrLink">
-                        <a href={`https://looksrare.org/collections/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} target="_blank" className="lrAnchor">
+                        <a href={`https://looksrare.org/collections/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/${GetOpenseaLink(pokemon)}`} target="_blank" rel="noreferrer" className="lrAnchor">
                         <img src="https://i.ibb.co/bRTX26b/looksrare.png" className="osImage" alt="Looks Rare's Logo"></img>
                         LR
                         </a>
@@ -69,4 +68,4 @@ export default function EnglishPokemon(){
             })}
         </table>
     </div>
-}
+};

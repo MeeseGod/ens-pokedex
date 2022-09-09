@@ -96,15 +96,19 @@ a, a:visited, a:hover, a:active {
     margin-bottom: 50px;
 }
 .japaneseDisclaimer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family: pokemonFont;
     font-size: 23px;
+    margin: 25px;
 }
 .pokemonDisplay{
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: solid;
-    height: 25px;
+    height: 28px;
     width: 600px;
 }
 .titles{
@@ -137,11 +141,6 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.japaneseDisclaimer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 .osImage{
     height: 18px;
     width: 18px;
@@ -151,5 +150,11 @@ a, a:visited, a:hover, a:active {
 @media (orientation: portrait) and (max-width: 600px){
     .homeText{
         max-width: 300px;
+    }
+    .pokemonDisplay, .titles{
+        width: 450px;
+    }
+    .displayContainer{
+        font-size: 16px;
     }
 }

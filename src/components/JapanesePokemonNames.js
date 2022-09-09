@@ -904,6 +904,6 @@ const JapanesePokemonNames = [
     "オオニューラ",
     "ハリーマン",
     "ラブトロス"
-]
+];
 
 export default JapanesePokemonNames

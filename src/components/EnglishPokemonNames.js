@@ -904,6 +904,6 @@ const EnglishPokemonNames = [
     "sneasler",
     "overqwil",
     "enamorus"
-]
+];
 
 export default EnglishPokemonNames;

@@ -11,8 +11,8 @@ export default function App(){
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" exact element={<Home/>} />
-          <Route path="/japanese" exact element={<JapanesePokemon/>} />
           <Route path="/english" exact element={<EnglishPokemon/>} />
+          <Route path="/japanese" exact element={<JapanesePokemon/>} />
         </Routes>
       </HashRouter>
     </div>
