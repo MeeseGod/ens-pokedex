@@ -18,7 +18,7 @@ export default function Home(){
                     Remember to continue growing the community!
                 </p>
                 <p>
-                    Update (2022-12-22): Pokemon Scarlet & Violent Pokemon now added to both English and Japanese sections! Happy Holidays!
+                    Update (2022-12-22): Pokemon from Scarlet and Violent have been added to both the English and Japanese sections! Happy Holidays!
                 </p>
             </div>
         </div>
