@@ -35,7 +35,7 @@ export default function Home(){
             <a href="https://dune.com/butterfree/Trainer-Dao" target="_blank" rel="noreferrer" className="homeLink">
                 <img src="https://dune.com/assets/glyph-128w.png" alt="Dune's logo" className="homeImage"/>
             </a>
-            <a href="https://www.ens.vision/categories/PKD" target="_blank" rel="noreferrer" className="homeLink">
+            <a href="https://ens.vision/categories/pokemon-trainer-dao" target="_blank" rel="noreferrer" className="homeLink">
                 <img src="https://www.ens.vision/favicon.ico" alt="ENS Vision's logo" className="homeImage"></img>
             </a>
             <a href="https://twitter.com/trainerdao" target="_blank" rel="noreferrer" className="homeLink">
