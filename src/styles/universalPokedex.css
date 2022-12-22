@@ -92,7 +92,7 @@ a, a:visited, a:hover, a:active {
     grid-template-rows: repeat(auto-fill, 1fr);
     justify-items: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 .japaneseDisclaimer{
