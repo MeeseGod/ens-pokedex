@@ -23,7 +23,7 @@ export default function Home(){
             </div>
         </div>
         <div className="trainerGifContainer">
-            <img src="https://i.imgur.com/PRdeMis.gif" alt="A rotating gif of pokemon trainers" className="trainerGif"/>
+            <img src="https://25.media.tumblr.com/d0dc767a8c1339173b3ad657d1cfc4a4/tumblr_mjgnc34iqT1qhoxx9o1_250.gif" alt="A rotating gif of pokemon trainers" className="trainerGif"/>
         </div>
         <div className="homeLinks">
             <a href="https://discord.gg/nfWYw9mctW" target="_blank" rel="noreferrer" className="homeLink">
